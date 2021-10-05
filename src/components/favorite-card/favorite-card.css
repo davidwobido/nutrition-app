@@ -3,10 +3,9 @@
   gap: 2em;
 }
 
-.favorite-card_fruits {
-  background-color: #fff2f0;
-  width: 10rem;
-  height: 10rem;
+.favorite-card {
+  width: 8.5rem;
+  height: 9rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,16 +14,19 @@
   gap: 0.75em;
 }
 
-.favorite-card_vegetables {
+.favorite-card--fruits {
+  background-color: #fff2f0;
+  color: #4d0a00;
+}
+
+.favorite-card--vegetables {
   background-color: #eff7ee;
-  width: 10rem;
-  height: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 2em;
-  gap: 0.75em;
+  color: #1c3418;
+}
+
+.favorite-card--snacks {
+  background-color: #fff8eb;
+  color: #4d3200;
 }
 
 /*.content-bar {
