@@ -1,0 +1,62 @@
+.tabs-test {
+  display: grid;
+  gap: 20px;
+  width: 100vw;
+}
+
+.tabs {
+  background: var(--bg-color-tertiary);
+  color: var(--color-secondary);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tabs__tab {
+  padding: 1em 4em;
+}
+
+.tabs__tab--active {
+  background: var(--color-secondary);
+  color: var(--color-light);
+}
+
+/* .Bars {
+  display: grid;
+  gap: 20px;
+}
+
+.Bar {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 1rem;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--bg-color-tertiary);
+}
+
+.Food__Active {
+  display: grid;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--color-secondary);
+}
+
+.Recipes__Active {
+  display: grid;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0 1rem 1rem 0;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
+} */
