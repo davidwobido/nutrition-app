@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *,
 *::after,
@@ -6,12 +6,42 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Fonts */
+  --font-family: "Signika", sans-serif;
+
+  /*Font Styles*/
+
+  /*Color v1*/
+  --color-primary: #91c788;
+  --color-secondary: #ff8473;
+  --color-tertiary: #ffc0b8;
+
+  --bg-color-primary: #eff7ee;
+  --bg-color-seconday: #fff2f0;
+  --bg-color-tertiary: #fff8eb;
+  --bg-color-quaternary: #9e9bc7;
+  --bg-color-neutral: #f4f4f4;
+
+  --text-color-primary: #262626;
+  --text-color-secondary: #8c8c8c;
+}
+
+/* Colors v2
+  --color-primary: #91c788;
+  --color-secondary: #ff8473;
+  --color-secondary-60: #ffc0b8;
+  --color-secondary-15: #fff2f0;
+  --color-tertiary: #9e9bc7;
+  --text-color-primary: #262626;
+  --text-color-secondary: #8c8c8c; */
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Signika", sans-serif;
+  font-family: var(--font-family);
   margin: 0;
 }
 
@@ -21,5 +51,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Signika", sans-serif;
+  font-family: var(--font-family);
 }
