@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 
 *,
 *::after,
@@ -16,6 +16,7 @@
   --color-primary: #91c788;
   --color-secondary: #ff8473;
   --color-tertiary: #ffc0b8;
+  --color-light: #fff;
 
   --bg-color-primary: #eff7ee;
   --bg-color-seconday: #fff2f0;
