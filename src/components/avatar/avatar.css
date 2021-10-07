@@ -1,5 +1,45 @@
 .avatar {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  position: relative;
 }
+
+.avatar__image {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+.avatar__icon {
+  background-color: var(--color-secondary);
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  display: grid;
+  border: var(--color-light) 0.17em solid;
+  position: absolute;
+  right: 1.1em;
+  bottom: 0.5em;
+  padding: 0.7em;
+  place-content: center;
+  /* same as: 
+  justify-content: center;
+  align-content: center; */
+}
+
+/* .avatar__image {
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+}
+
+.avatar__icon {
+  background-color: var(--color-secondary);
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: var(--color-light) 0.2em;
+  position: relative;
+  bottom: 2em;
+  left: 5em;
+} */
